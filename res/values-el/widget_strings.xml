@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widget_title">ΤΕΙ Πρόγραμμα</string>
+    
+    <string name="widget_current">Τρέχον Μάθημα</string>
+    <string name="widget_current_emtpy">Κανένα</string>
+    <string name="widget_upcoming">Επόμενο Μάθημα</string>
+    <string name="widget_upcoming_empty">Κανένα</string>
+</resources>

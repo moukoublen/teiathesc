@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.teiath.teiesc"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        
+        <activity
+            android:name="org.teiath.teiesc.LoginActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustResize|stateVisible" 
+            android:configChanges="orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="org.teiath.teiesc.provider.TeiathDbProvider"
+            android:authorities="org.teiath.teiesc.provider.TeiathDbProvider"
+            android:multiprocess="true"
+            android:exported="false">
+        </provider>
+
+        <activity
+            android:name="org.teiath.teiesc.MainActivity"
+            android:label="@string/title_activity_main"
+            android:windowSoftInputMode="stateAlwaysHidden"
+            android:configChanges="orientation|screenSize">
+        </activity>
+        
+        
+        <receiver android:name="org.teiath.teiesc.widget.ScheduleWidgetProvider"
+            android:label="Tei Eschedule" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widgetinfo" />
+        </receiver>
+        
+    </application>
+    
+    
+
+</manifest>

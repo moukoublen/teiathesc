@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widget_title">TEI Schedule</string>
+    
+    <string name="widget_current">Current Lecture</string>
+    <string name="widget_current_emtpy">Nothing</string>
+    <string name="widget_upcoming">Upcoming Lecture</string>
+    <string name="widget_upcoming_empty">Nothing</string>
+</resources>

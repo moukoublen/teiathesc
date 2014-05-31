@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TeiESC</string>
+    
+    <string name="main_name">Schedule</string>
+    
+    <string name="day_mon">Monday</string>
+    <string name="day_tue">Tuesday</string>
+    <string name="day_wed">Wednesday</string>
+    <string name="day_thu">Thursday</string>
+    <string name="day_fri">Friday</string>
+    <string name="day_sat">Saturday</string>
+    <string name="day_sun">Sunday</string>
+
+</resources>

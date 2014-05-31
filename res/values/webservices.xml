@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ws_lectures">http://teiathesc.no-ip.org:8080/esch/esc/lectures</string>
+    <string name="ws_lessons">http://teiathesc.no-ip.org:8080/esch/esc/lessons</string>
+    <string name="ws_rooms">http://teiathesc.no-ip.org:8080/esch/esc/rooms</string>
+    <string name="ws_registrations">http://teiathesc.no-ip.org:8080/esch/esc/registrations</string>
+    <string name="ws_updates">http://teiathesc.no-ip.org:8080/esch/esc/updates</string>
+    
+    <string name="ws_login">http://teiathesc.no-ip.org:8080/esch/esc/login</string>
+    
+</resources>

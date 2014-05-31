@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">Ωρολόγιο Πρόγραμμα</string>
+    
+    <string name="main_name">Πρόγραμμα</string>
+
+    <string name="day_mon">Δευτερα</string>
+    <string name="day_tue">Τριτη</string>
+    <string name="day_wed">Τεταρτη</string>
+    <string name="day_thu">Πεμπτη</string>
+    <string name="day_fri">Παρασκευη</string>
+    <string name="day_sat">Σαββατο</string>
+    <string name="day_sun">Κυριακη</string>
+    
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_settings">Ρυθμίσεις</string>
+    <string name="menu_update">Ενημερώσεις</string>
+    <string name="menu_sign_out">Αποσύνδεση</string>
+    <string name="title_activity_main">Πρόγραμμα</string>
+    
+    <string name="update_checking_title">Έλεγχος για ενημερώσεις</string>
+    <string name="update_checking_message">Παρακαλώ περιμένετε όσο γίνεται έλεγχος για ενημερώσεις</string>
+    <string name="update_title">Ενημέρωση</string>
+    <string name="update_message">Παρακαλώ περιμένετε όσο το πρόγραμμα ενημερώνεται&#8230;</string>
+    <string name="update_question_message">Υπάρχουν διαθέσιμες ενημερώσεις. Θέλετε να τις λάβετε;</string>
+    <string name="update_not_found">Δεν υπάρχουν ενημερώσεις</string>
+    
+    <string name="no_connection">Δεν υπάρχει σύνδεση στο διαδίκτυο</string>
+    <string name="error_on_update">Δυστυχώς η ενημέρωση δεν μπορεί να ολοκληρωθεί</string>
+</resources>

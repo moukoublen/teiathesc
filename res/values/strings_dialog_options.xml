@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="opt_title">View Options</string>
+    
+    <string name="opt_registered_only">Registered Only</string>
+    
+    <string name="opt_show_labs">Show Labs</string>
+    
+    <string name="opt_show_theories">Show Theories</string>
+    
+    
+    <string name="opt_sub_category">Specific Eras</string>
+    <string name="opt_all_eras">Show All Eras</string>
+    <string name="opt_era1">1st</string>
+    <string name="opt_era2">2nd</string>
+    <string name="opt_era3">3rd</string>
+    <string name="opt_era4">4th</string>
+    <string name="opt_era5">5th</string>
+    <string name="opt_era6">6th</string>
+    <string name="opt_era7">7th</string>
+    
+    <string name="opt_sw_on">On</string>
+    <string name="opt_sw_off">Off</string>
+</resources>

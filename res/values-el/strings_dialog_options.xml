@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="opt_title">Επιλογές Προβολής</string>
+    
+    <string name="opt_registered_only">Προβολή μονο των δηλωμένων μαθημάτων</string>
+    
+    <string name="opt_show_labs">Προβολή Εργαστηρίων</string>
+    
+    <string name="opt_show_theories">Προβολή Θεωριών</string>
+    
+    
+    <string name="opt_sub_category">Επιλεκτική Προβολή Εξαμήνων </string>
+    <string name="opt_all_eras">Προβολή Όλων</string>
+    <string name="opt_era1">1ο</string>
+    <string name="opt_era2">2ο</string>
+    <string name="opt_era3">3ο</string>
+    <string name="opt_era4">4ο</string>
+    <string name="opt_era5">5ο</string>
+    <string name="opt_era6">6ο</string>
+    <string name="opt_era7">7ο</string>
+    
+    <string name="opt_sw_on">Ναι</string>
+    <string name="opt_sw_off">Οχι</string>
+</resources>

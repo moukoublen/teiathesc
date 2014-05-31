@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="prompt_username">Όνομα χρήστη</string>
+    <string name="prompt_password">Κωδικός</string>
+    <string name="action_sign_in_register">Σύνδεση</string>
+    <string name="action_sign_in_short">Σύνδεση</string>
+    <string name="menu_forgot_password">Ανάκτηση χαμένου κωδικού</string>
+    <string name="login_progress_signing_in">Σύνδεση&#8230;</string>
+    <string name="error_invalid_email">Το όνομα χρήστη είναι λάθος</string>
+    <string name="error_invalid_password">Ο κωδικός έχει λίγους χαρακτήρες</string>
+    <string name="error_incorrect_password">Ο κωδικός είναι λάθος</string>
+    <string name="error_field_required">Το πεδίο αυτό είναι απαραίτητο</string>
+    <string name="error_connection">Παρουσιάστηκε πρόβλημα σύνδεσης</string>
+
+</resources>
