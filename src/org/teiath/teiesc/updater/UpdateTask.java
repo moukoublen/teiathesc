@@ -29,31 +29,29 @@ public abstract class UpdateTask
         }
     }
     
-    public void update(String url, ContentResolver cr)
-            throws LogInException, JSONException, IllegalStateException, IOException
-    {
-        update(new RestWsHandler(url), cr);
-    }
-
     public abstract void update(RestWsHandler ws, ContentResolver cr)
             throws LogInException, JSONException, IllegalStateException, IOException;
     
+    public abstract DataItemReference getRef();
     
-    public static synchronized <T> void update(RestWsHandler ws, ContentResolver cr, ADbTransaction<T> dbTran, JSONObjectExtractor<T> jsonExtractor)
+    
+    public static synchronized <T> void update(RestWsHandler ws, ContentResolver cr, 
+            ADbTransaction<T> dbTran, JSONObjectExtractor<T> jsonExtractor)
             throws LogInException, JSONException, IllegalStateException, IOException
     {
         Collection<T> items = WsTransaction.getAllFromWs(ws, jsonExtractor);
-        update(items, cr, dbTran);
+        updateDatabase(items, cr, dbTran);
     }
     
-    public static synchronized <T> void update(Collection<T> items, ContentResolver cr, ADbTransaction<T> dbTran)
+    public static synchronized <T> void updateDatabase(Collection<T> items, ContentResolver cr, 
+            ADbTransaction<T> dbTran)
             throws IllegalStateException, IOException
     {
         dbTran.deleteAll(cr);
         dbTran.storeAll(cr, items);
     }
     
-    public abstract DataItemReference getRef();
+    
     
     @Override
     public String toString()
