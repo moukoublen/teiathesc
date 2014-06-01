@@ -110,7 +110,7 @@ public final class UpdatesTasks implements IItemRefDictionary<UpdateTask>
                 
                 Collection<Registration> items = JSONExtractor.getAllFromStrData(dataStr, JSONExtractor.REGISTRATION_JSON_EXTRACTOR);
                 
-                UpdateTask.update(items, cr, trPack.getRegistrations());
+                UpdateTask.updateDatabase(items, cr, trPack.getRegistrations());
             }
             @Override
             public DataItemReference getRef()
