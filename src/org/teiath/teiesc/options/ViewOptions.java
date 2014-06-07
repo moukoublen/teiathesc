@@ -75,7 +75,7 @@ public class ViewOptions
         }
     }
     
-    public void setAllEras(boolean show)
+    public final void setAllEras(boolean show)
     {
         for(int i=0; i<ERAS; i++)
         {
