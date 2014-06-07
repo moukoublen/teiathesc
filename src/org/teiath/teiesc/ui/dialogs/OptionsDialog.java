@@ -138,7 +138,7 @@ public class OptionsDialog extends DialogFragment
         chShowAllEras.setChecked(mOptions.getShowAllEras());
         for(int i=0; i<ViewOptions.ERAS; i++)
         {
-            sw_eras[i].setChecked(mOptions.getEra(i));
+            sw_eras[i].setChecked(mOptions.getShowEra(i));
         }
         
         builder.setView(rootView);

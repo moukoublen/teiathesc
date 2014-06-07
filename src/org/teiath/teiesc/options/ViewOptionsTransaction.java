@@ -46,7 +46,7 @@ public class ViewOptionsTransaction
         
         for(int i=0; i<ViewOptions.ERAS; i++)
         {
-            e.putBoolean(KEY_ERA + i, o.getEra(i));
+            e.putBoolean(KEY_ERA + i, o.getShowEra(i));
         }
         
         e.commit();

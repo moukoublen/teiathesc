@@ -152,7 +152,7 @@ public class DataPack
             
             if(!options.getShowAllEras())
             {
-                if(!options.getEra(l.getZeroBasedEra()))
+                if(!options.getShowEra(l.getZeroBasedEra()))
                 {
                     continue;
                 }

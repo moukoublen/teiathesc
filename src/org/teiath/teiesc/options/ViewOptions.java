@@ -53,7 +53,7 @@ public class ViewOptions
         return this.mShowAllEras;
     }
 
-    public boolean getEra(int era)
+    public boolean getShowEra(int era)
     {
         if(era >= 0 && era < ERAS)
         {
