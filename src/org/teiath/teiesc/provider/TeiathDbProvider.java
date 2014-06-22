@@ -154,7 +154,7 @@ public class TeiathDbProvider extends ContentProvider
         // Tell the cursor what uri to watch, 
         // so it knows when its source data changes
         c.setNotificationUri(getContext().getContentResolver(), uri);
-        db.close();
+        //db.close();
         return c;
     }
 
@@ -185,7 +185,7 @@ public class TeiathDbProvider extends ContentProvider
         
         // de thymamai giati, alla to lene.
         getContext().getContentResolver().notifyChange(ret, null);
-        db.close();
+        //db.close();
         return ret;
     }
 
@@ -197,7 +197,7 @@ public class TeiathDbProvider extends ContentProvider
         String table = getTableName(uri);
         
         int c = db.delete(table, selection, selectionArgs);
-        db.close();
+        //db.close();
         return c;
     }
 
