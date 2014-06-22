@@ -3,21 +3,21 @@
     <item
         android:id="@+id/menu_settings"
         android:orderInCategory="100"
-        android:showAsAction="ifRoom|withText"
+        android:showAsAction="never"
         android:icon="@drawable/ic_settings"
         android:title="@string/menu_settings"/>
     
     <item
         android:id="@+id/menu_update"
         android:orderInCategory="100"
-        android:showAsAction="ifRoom|withText"     
+        android:showAsAction="never"     
         android:icon="@drawable/ic_update"
         android:title="@string/menu_update"/>
     
     <item
         android:id="@+id/menu_sign_out"
         android:orderInCategory="100"
-        android:showAsAction="ifRoom|withText"     
+        android:showAsAction="never"     
         android:icon="@drawable/ic_sign_out"
         android:title="@string/menu_sign_out"/>
 
